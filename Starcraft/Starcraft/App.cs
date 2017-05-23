@@ -9,7 +9,7 @@ namespace Starcraft
 {
     public class App : Application
     {
-        public App()
+        public App() //Russell was here
         {
             // The root page of your application
             var content = new ContentPage
