@@ -9,25 +9,11 @@ namespace Starcraft
 {
     public class App : Application
     {
-        public App() //Russell was here tsting Team explorer
+        public App()
         {
             // The root page of your application
-            var content = new ContentPage
-            {
-                Title = "Starcraft",
-                Content = new StackLayout
-                {
-                    VerticalOptions = LayoutOptions.Center,
-                    Children = {
-                        new Label {
-                            HorizontalTextAlignment = TextAlignment.Center,
-                            Text = "Welcome to Xamarin Forms!"
-                        }
-                    }
-                }
-            };
-
-            MainPage = new NavigationPage(content);
+            MainPage = new HomePage();
+      
         }
 
         protected override void OnStart()
