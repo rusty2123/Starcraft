@@ -5,4 +5,55 @@
   <Label Text="StarCraft Build Orders" 
          VerticalOptions="Center" 
          HorizontalOptions="Center" />
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+
+    <Button x:Name = "tvt"
+            Text = "TvT"
+            Clicked = "OnTvtClick"
+            Grid.Row="0" Grid.Column="0"/>
+    <Button x:Name = "tvz"
+            Text = "TvZ"
+            Clicked = "OnTvzClick"
+            Grid.Row="0" Grid.Column="1"/>
+    <Button x:Name = "tvp"
+            Text = "TvP"
+            Clicked = "OnTvpClick"
+            Grid.Row="0" Grid.Column="2"/>
+    <Button x:Name = "zvt"
+            Text = "ZvT"
+            Clicked = "OnZvtClick"
+            Grid.Row="1" Grid.Column="0"/>
+    <Button x:Name = "zvz"
+            Text = "ZvZ"
+            Clicked = "OnZvzClick"
+            Grid.Row="1" Grid.Column="1"/>
+    <Button x:Name = "zvp"
+            Text = "ZvP"
+            Clicked = "OnZvpClick"
+            Grid.Row="1" Grid.Column="2"/>
+    <Button x:Name = "pvt"
+            Text = "PvT"
+            Clicked = "OnPvtClick"
+            Grid.Row="2" Grid.Column="0"/>
+    <Button x:Name = "pvz"
+            Text = "PvZ"
+            Clicked = "OnPvzClick"
+            Grid.Row="2" Grid.Column="1"/>
+    <Button x:Name = "pvp"
+            Text = "PvP"
+            Clicked = "OnPvpClick"
+            Grid.Row="2" Grid.Column="2"/>
+
+  </Grid>
+  
 </ContentPage>
